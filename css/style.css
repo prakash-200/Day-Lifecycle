@@ -1,0 +1,428 @@
+
+.round{
+    height: 150px;
+    width: 150px;
+    /* background-color: rgb(255, 246, 246); */
+    border-radius: 100px;
+    animation: moon 20s ease-in-out infinite;
+}
+
+.top{
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+    position: relative;
+    animation: bg 20s ease-in-out infinite;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    /* background: linear-gradient(red,orange,yellow); */
+    background-color: orange;
+    box-shadow: 0 0 35px 5px yellow,0 0 25px 10px yellow inset;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    animation: sun 20s ease-in-out infinite;
+    /* box-shadow: 2px 2px 2px 2px red,
+    2px 2px 2px 2px orange; */
+    /* transition: 2s; */
+}
+
+.top .s1{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    animation: star1 20s ease-in-out infinite;
+}
+
+.top .s2{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    animation: star 20s ease-in-out infinite;
+}
+
+.top .s3{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    animation: star1 20s ease-in-out infinite;
+}
+
+.top .s4{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    animation: star 20s ease-in-out infinite;
+}
+
+.top .s5{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    animation: star1 20s ease-in-out infinite;
+}
+.top .s6{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    animation: star 20s ease-in-out infinite;
+}
+
+.top .s7{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    animation: star1 20s ease-in-out infinite;
+}
+
+.top .s8{
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    animation: star 20s ease-in-out infinite;
+}
+.top .s9{
+    position: absolute;
+    top: 60%;
+    left: 85%;
+    animation: star1 20s ease-in-out infinite;
+}
+.top .s10{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    animation: star 20s ease-in-out infinite;
+}
+
+.down{
+    background-image: url("../images/sea.jpg");
+    width: 100vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+
+@keyframes bg {
+    10%{
+        background-color: #ff7d59;
+        background-image: linear-gradient(319deg, #ff7d59 0%, #ff583a 37%, #f4a698 100%);
+    }
+    50%{
+        background-color: #ff7d59;
+        background-image: linear-gradient(319deg, #ff7d59 0%, #ff583a 37%, #f4a698 100%);
+    }
+    55%{
+        background-color: #020122;
+        background-image: linear-gradient(black,black);
+    }
+    60%{
+        background-color: #020122;
+        /* background-image: linear-gradient(black,black); */
+    }
+    65%{
+        background-color: #020122;
+        /* background-image: linear-gradient(black,black); */
+    }
+    75%{
+        background-color: #020122;
+        /* background-image: linear-gradient(black,black); */
+    }
+    80%{
+        background-color: #020122;
+        /* background-image: linear-gradient(black,black); */
+    }
+    85%{
+        background-color: #020122;
+        /* background-image: linear-gradient(black,black); */
+    }
+    90%{
+        background-color: #020122;
+        /* background-image: linear-gradient(black,black); */
+    }
+    95%{
+        background-color: #020122;
+        /* background-image: linear-gradient(black,black); */
+    }
+    97%{
+        background-color: #020122;
+        /* background-image: linear-gradient(black,black); */
+    }
+    100%{
+        background-color: #020122;
+        /* background-image: linear-gradient(black,black); */
+    }
+    
+}
+
+@keyframes sun{
+    0%{
+        left: 40%;
+        bottom: -20%;
+        z-index: -2;
+    }
+    10%{
+        left: 50%;
+        bottom: 10%;
+        z-index: 2;
+         }
+    20%{
+        left: 60%;
+        bottom: 20%;
+        }
+    30%{
+        left: 70%;
+        bottom: 30%;
+    }
+    40%{
+        left: 80%;
+        bottom: 40%;
+    }
+    50%{
+        left: 90%;
+        bottom: 50%;
+    }
+    55%{
+        left: 100%;
+        bottom: 60%;
+    }
+    60%{
+        left: 100%;
+        bottom: 60%;
+    }
+    70%{
+        left: 100%;
+        bottom: 60%;
+    }
+    80%{
+        left: 100%;
+        bottom: 60%;
+    }
+    90%{
+        left: 100%;
+        bottom: 60%;
+    }
+    100%{
+        left: 100%;
+        bottom: 60%;
+    }
+}
+
+@keyframes star {
+    0%{
+        color: #0000;
+        opacity: .1;
+    }
+    10%{
+        color: #0000;
+        opacity: .1;
+    }
+    20%{
+        color: #0000;
+        opacity: .1;
+    }
+    30%{
+        color: #0000;
+        opacity: .1;
+    }
+    40%{
+        color: #0000;
+        opacity: .1;
+    }
+    50%{
+        color: #0000;
+        opacity: .1;
+    }
+    55%{
+        color: #0000;
+        opacity: .1;
+    }
+    60%{
+        color: #ffff;
+        opacity: .7;
+    }
+    70%{
+        color: #d7baba;
+        opacity: .7;
+    }
+    80%{
+        color: #948484;
+        opacity: .7;
+    }
+    90%{
+        color: #c7c0c0;
+        opacity: .7;
+    }
+    100%{
+        color: #cbb6b6;
+        opacity: .7;
+    }
+}
+
+@keyframes star1 {
+    0%{
+        color: #0000;
+        opacity: .1;
+    }
+    10%{
+        color: #0000;
+        opacity: .1;
+    }
+    20%{
+        color: #0000;
+        opacity: .1;
+    }
+    30%{
+        color: #0000;
+        opacity: .1;
+    }
+    40%{
+        color: #0000;
+        opacity: .1;
+    }
+    50%{
+        color: #0000;
+        opacity: .1;
+    }
+    55%{
+        color: #0000;
+        opacity: .1;
+    }
+    65%{
+        color: #ffff;
+        opacity: .7;
+    }
+    75%{
+        color: #d7baba;
+        opacity: .7;
+    }
+    85%{
+        color: #948484;
+        opacity: .7;
+    }
+    95%{
+        color: #c7c0c0;
+        opacity: .7;
+    }
+    98%{
+        color: #cbb6b6;
+        opacity: .7;
+    }
+} 
+
+@keyframes moon {
+     0%{
+        color: #0000;
+        opacity: .1;
+    }
+    10%{
+        color: #0000;
+        opacity: .1;
+    }
+    20%{
+        color: #0000;
+        opacity: .1;
+    }
+    30%{
+        color: #0000;
+        opacity: .1;
+    }
+    40%{
+        color: #0000;
+        opacity: .1;
+    }
+    50%{
+        color: #0000;
+        opacity: .1;
+    }
+    55%{
+        color: #0000;
+        opacity: .1;
+    }
+    60%{
+        color: #ffff;
+        opacity: .7;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+    65%{
+        color: #ffff;
+        opacity: .5;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+    70%{
+        color: #ffff;
+        opacity: .7;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+    75%{
+        color: #ffff;
+        opacity: .5;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+    80%{
+        color: #ffff;
+        opacity: .7;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+    85%{
+        color: #ffff;
+        opacity: .5;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+    90%{
+        color: #ffff;
+        opacity: .7;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+    95%{
+        color: #ffff;
+        opacity: .5;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+    97%{
+        color: #ffff;
+        opacity: .7;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+    100%{
+        color: #cbb6b6;
+        opacity: .5;
+        box-shadow: 5px 0 10px 3px rgba(229,229,229,0.3),
+                  0 0 10px 2px rgba(229,229,229,0.3),
+                  5px 0 10px 3px rgba(229,229,229,0.3),
+                   0px 0 3px 2px rgba(229,229,229,0.3);
+    }
+}
